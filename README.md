@@ -12,7 +12,7 @@ Puedes acceder al proyecto a través del siguiente enlace:
 
 - Para la el correcto funcionamiento del proyecto solo necesita descargar el este proyecto.
 - Para ejecutarlo, navega a la carpeta `\target` y en una consola ejecutar el comando `java -jar Employee-Management-0.0.1-SNAPSHOT.war`
-- El proyecto ejecutara en `http://localhost:8080/jm/employee-management`
+- El proyecto ejecutara en `http://localhost:8080`
 
 
 ## 💾 Bases de Datos
