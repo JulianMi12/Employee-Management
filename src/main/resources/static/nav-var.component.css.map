@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/nav-var/nav-var.component.scss"],
-  "sourcesContent": [".icon i {\r\n    text-align: center;\r\n    font-size: 20px;\r\n}\r\n\r\n.header {\r\n    background-color: #290941;\r\n}\r\n\r\n.nav-link {\r\n    cursor: pointer;\r\n    text-decoration: none;\r\n}\r\n\r\n.text-selected {\r\n    --bs-text-opacity: 1;\r\n    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;\r\n}"],
-  "mappings": ";AAAA,CAAA,KAAA;AACI,cAAA;AACA,aAAA;;AAGJ,CAAA;AACI,oBAAA;;AAGJ,CAAA;AACI,UAAA;AACA,mBAAA;;AAGJ,CAAA;AACI,qBAAA;AACA,SAAA,KAAA,IAAA,mBAAA,EAAA,IAAA;;",
-  "names": []
-}
