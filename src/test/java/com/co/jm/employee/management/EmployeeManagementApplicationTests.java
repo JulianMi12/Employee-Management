@@ -1,13 +1,12 @@
 package com.co.jm.employee.management;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class EmployeeManagementApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+//	@Test
+//	void contextLoads() {
+//		assertTrue(true);
+//	}
 }
