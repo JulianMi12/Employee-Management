@@ -14,5 +14,7 @@ C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\
 C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\java\com\co\jm\employee\management\persistence\jpa\EmployeeJpaRepository.java
 C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\java\com\co\jm\employee\management\persistence\impl\EmployeeRepositoryImpl.java
 C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\java\com\co\jm\employee\management\controller\impl\EmployeeControllerImpl.java
+C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\java\com\co\jm\employee\management\exception\EmployeeNotFoundException.java
 C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\java\com\co\jm\employee\management\controller\dto\EmployeeDto.java
 C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\java\com\co\jm\employee\management\service\SalaryCalculatorService.java
+C:\Users\julia\OneDrive\Documents\Projects\Employee-Management\BackEnd\src\main\java\com\co\jm\employee\management\exception\GlobalExceptionHandler.java

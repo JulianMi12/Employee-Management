@@ -19,3 +19,5 @@ com\co\jm\employee\management\persistence\jpa\EmployeeJpaRepository.class
 com\co\jm\employee\management\persistence\EmployeeRepository.class
 com\co\jm\employee\management\controller\mapper\EmployeeMapper.class
 com\co\jm\employee\management\util\ServletInitializer.class
+com\co\jm\employee\management\exception\EmployeeNotFoundException.class
+com\co\jm\employee\management\exception\GlobalExceptionHandler.class
