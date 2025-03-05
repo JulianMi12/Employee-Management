@@ -1,6 +1,0 @@
-com\co\jm\employee\management\controller\impl\EmployeeControllerImplTest.class
-com\co\jm\employee\management\controller\impl\RoutesControllerImplTest.class
-com\co\jm\employee\management\EmployeeManagementApplicationTests.class
-com\co\jm\employee\management\persistence\impl\EmployeeRepositoryImplTest.class
-com\co\jm\employee\management\service\impl\EmployeeServiceImplTest.class
-com\co\jm\employee\management\service\impl\SalaryCalculatorServiceImplTest.class
