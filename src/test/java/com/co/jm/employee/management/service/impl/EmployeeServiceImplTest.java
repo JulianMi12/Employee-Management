@@ -53,7 +53,7 @@ class EmployeeServiceImplTest {
     RuntimeException exception =
         assertThrows(RuntimeException.class, () -> employeeService.getEmployeeInformation());
 
-    assertEquals("Employees not found - 404 NOT_FOUND", exception.getMessage());
+    assertEquals("Employees not found", exception.getMessage());
     verify(employeeRepository).getEmployeesInformation();
   }
 
@@ -135,7 +135,7 @@ class EmployeeServiceImplTest {
     );
 
     assertEquals(
-        String.format("Employee with ID %d not found - 404 NOT_FOUND", employeeId),
+        String.format("Employee with ID %d not found", employeeId),
         exception.getMessage()
     );
     verify(employeeRepository).getEmployeeInformationById(employeeId);
