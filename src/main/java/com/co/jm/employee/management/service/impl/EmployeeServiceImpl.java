@@ -1,6 +1,7 @@
 package com.co.jm.employee.management.service.impl;
 
 import com.co.jm.employee.management.data.EmployeeData;
+import com.co.jm.employee.management.exception.EmployeeNotFoundException;
 import com.co.jm.employee.management.persistence.EmployeeRepository;
 import com.co.jm.employee.management.service.EmployeeService;
 import com.co.jm.employee.management.service.SalaryCalculatorService;
@@ -27,7 +28,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         employeeRepository
             .getEmployeesInformation()
             .orElseThrow(
-                () -> new RuntimeException("Employees not found - " + HttpStatus.NOT_FOUND));
+                EmployeeNotFoundException::new);
 
     List<EmployeeData> updatedEmployeeDataList =
         employeeDataList.stream()
@@ -45,12 +46,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         employeeRepository
             .getEmployeeInformationById(employeeId)
             .map(this::mapEmployeeWithAnnualSalary)
-            .orElseThrow(
-                () ->
-                    new RuntimeException(
-                        String.format(
-                            "Employee with ID %d not found - %s",
-                            employeeId, HttpStatus.NOT_FOUND)));
+            .orElseThrow(() -> new EmployeeNotFoundException(employeeId));
     log.info("<<<< End getEmployeeInformationById - employeeId {}", employeeId);
     return employeeData;
   }
